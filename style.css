@@ -1,0 +1,265 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+body{
+  
+
+  background-color: rgb(238, 211, 175);
+  
+
+}
+
+h2{
+
+  text-align: center;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: #4C92FF;
+  position: relative;
+  top:25px;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container{
+  margin-top:10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.head{
+
+  height:180px;
+  width:200px;
+  border-radius: 14%;
+  animation-delay: 3s;
+   margin:7% 0% 0% 0%;
+   animation: example 3s infinite;
+
+  
+}
+
+  @keyframes example{
+
+    0%{
+        
+        transform: rotate(-10deg);
+        background-color: rgb(13, 144, 231);
+
+    }
+    50%{
+
+        transform: rotate(0deg);
+        background-color: rgb(7, 156, 255);
+
+    }
+    100%{
+
+        transform: rotate(10deg);
+        background-color: rgb(0, 174, 255);
+     
+
+    }  
+
+  }
+
+.Left-eye{
+
+  height:20px;
+  width: 20px;
+ border-radius: 40%;
+ background: white;
+ position: relative;
+ top:30px;
+ left:40px;
+
+}
+.Left-eye:hover{
+  transition: 0.4s;
+   background: rgb(179, 170, 170);
+   border-radius: 37%;
+
+}
+.Right-eye{
+
+    height:20px;
+    width:20px;
+    background: white;
+    position: relative;
+     left:150px;
+     top:10px;
+     border-radius: 40%;
+
+}
+.Right-eye:hover{
+  transition: 0.4s;
+   background: rgb(179, 170, 170);
+   border-radius: 37%;
+
+}
+.Mouth{
+
+   position:relative;
+   height:10px;
+   width:70px;
+   background: rgb(255, 255, 255);
+   top:35%;
+   left:33%
+}
+.Body{
+ 
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  
+}
+.body-part{
+
+   background-color:  #ff4c68;
+   height:250px;
+   width:170px;
+   position: relative;
+   top:10px;
+   left:28px;
+   animation: second 3s infinite;
+   border-radius: 10%;
+
+}
+.Left-hand{
+
+  height:100px;
+  width:30px;
+  background: #04c49a;
+  border-radius:20px;
+  position: relative;
+  top:20px;
+  left:-175px;
+
+}
+.Right-hand{
+
+  height:100px;
+  width:30px;
+  background:#04c49a;
+  border-radius:20px;
+  position: relative;
+  top:20px;
+  left:px;
+  
+}
+
+.Legs{
+
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+
+}
+.Left-leg{
+
+  height:100px;
+  width:30px;
+  border-radius: 30px;
+  background: red;
+  position: relative;
+  top:10px;
+  left:-30px;
+  animation: First 3s infinite;
+
+}
+.Right-leg{
+
+  height:100px;
+  width:30px;
+  border-radius: 30px;
+  position: relative;
+  top:10px;
+  left:30px;
+  animation: Second 3s infinite;
+}
+@keyframes First{
+
+ 0%{
+
+     transform: rotate(10deg);
+     background-color: #04c49a;
+
+
+ }
+ 50%{
+
+   transform: rotate(0deg);
+    background-color: rgb(11, 142, 250);
+
+
+ }
+ 100%{
+ 
+  transform: rotate(-10deg);
+  background-color: #04c49a;
+
+ }
+
+
+
+}
+@keyframes Second{
+
+  0%{
+
+    transform: rotate(-10deg);
+    background-color: #04c49a;
+
+
+}
+50%{
+
+  transform: rotate(0deg);
+   background-color: rgb(11, 142, 250);
+
+
+}
+100%{
+
+ transform: rotate(10deg);
+ background-color: #04c49a;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
